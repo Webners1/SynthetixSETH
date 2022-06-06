@@ -1,18 +1,18 @@
 {
 	"AddressResolver": {
-		"deploy": false
+		"deploy": true
 	},
 	"CollateralManager": {
-		"deploy": false
+		"deploy": true
 	},
 	"CollateralManagerState": {
-		"deploy": false
+		"deploy": true
 	},
 	"CollateralEth": {
-		"deploy": false
+		"deploy": true
 	},
 	"CollateralErc20": {
-		"deploy": false
+		"deploy": true
 	},
 	"CollateralShort": {
 		"deploy": false
@@ -21,7 +21,7 @@
 		"deploy": false
 	},
 	"CollateralStateEth": {
-		"deploy": false
+		"deploy": true
 	},
 	"CollateralStateShort": {
 		"deploy": false
@@ -180,13 +180,13 @@
 		"deploy": false
 	},
 	"TokenStatesETH": {
-		"deploy": false
+		"deploy": true
 	},
 	"ProxysETH": {
-		"deploy": false
+		"deploy": true
 	},
 	"SynthsETH": {
-		"deploy": false
+		"deploy": true
 	},
 	"TokenStatesLINK": {
 		"deploy": false
@@ -216,7 +216,7 @@
 		"deploy": false
 	},
 	"ShortingRewardssETH": {
-		"deploy": false
+		"deploy": true
 	},
 	"ShortingRewardssBTC": {
 		"deploy": false
@@ -237,10 +237,10 @@
 		"deploy": false
 	},
 	"EtherWrapper": {
-		"deploy": false
+		"deploy": true
 	},
 	"NativeEtherWrapper": {
-		"deploy": false
+		"deploy": true
 	},
 	"SynthRedeemer": {
 		"deploy": false

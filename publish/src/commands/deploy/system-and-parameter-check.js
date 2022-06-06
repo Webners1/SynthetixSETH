@@ -142,6 +142,7 @@ module.exports = async ({
 		console.log(
 			yellow(`⚠ WARNING: Deployer account balance could be too low: ${deployerBalance} ETH`)
 		);
+		console.log(deployer.provider);
 	}
 
 	let ovmDeploymentPathWarning = false;

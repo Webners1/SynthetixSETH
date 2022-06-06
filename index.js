@@ -8,6 +8,7 @@ const data = {
 	kovan: require('./publish/deployed/kovan'),
 	mainnet: require('./publish/deployed/mainnet'),
 	goerli: require('./publish/deployed/goerli'),
+	rinkeby: require('./publish/deployed/rinkeby'),
 	'goerli-ovm': require('./publish/deployed/goerli-ovm'),
 	'local-ovm': require('./publish/deployed/local-ovm'),
 	'kovan-ovm': require('./publish/deployed/kovan-ovm'),
@@ -18,7 +19,7 @@ const assets = require('./publish/assets.json');
 const nonUpgradeable = require('./publish/non-upgradeable.json');
 const releases = require('./publish/releases.json');
 
-const networks = ['local', 'kovan', 'mainnet', 'goerli'];
+const networks = ['local', 'kovan', 'mainnet', 'goerli', 'rinkeby'];
 
 const chainIdMapping = Object.entries({
 	1: {
@@ -33,6 +34,10 @@ const chainIdMapping = Object.entries({
 	// Hardhat fork of mainnet: https://hardhat.org/config/#hardhat-network
 	31337: {
 		network: 'mainnet',
+		fork: true,
+	},
+	4: {
+		network: 'rinkeby',
 		fork: true,
 	},
 
